@@ -7,7 +7,7 @@ const Card = (props) => {
     }
 
     return (
-        <td className="Card-class">
+        <td className="card-content">
             <img src={props.image} />
             <h2>{props.name}</h2>
             <h3>{props.type}</h3>

@@ -3,7 +3,8 @@ import React from "react"
 const Header = () => {
     return (
         <div className="Header-class">
-            <h1>Studio Ghibli Recs</h1>
+            <img src="src\images\ghibli.jpg" />
+            <h1>Studio Ghibli Recommendations</h1>
         </div>
     )
 }
